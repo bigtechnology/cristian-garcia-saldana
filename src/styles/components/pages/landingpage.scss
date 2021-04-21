@@ -15,6 +15,24 @@
     }
   }
 
+  .carousel-body {
+    .carousel-card {
+      &.show {
+        transition: all 0.7s ease-in-out;
+      }
+
+      &.prev {
+        transition: all 0.7s ease-in-out;
+      }
+
+      &.next {
+        transition: all 0.7s ease-in-out;
+      }
+
+      transition: all 0.7s ease-in-out;
+    }
+  }
+
   // Carousel Media Query Styling
   @include bp(mid) {
     @include carousel-height(40rem);
