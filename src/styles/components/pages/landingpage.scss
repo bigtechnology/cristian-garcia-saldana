@@ -18,18 +18,26 @@
   .carousel-body {
     .carousel-card {
       &.show {
-        transition: all 0.7s ease-in-out;
+        transition: all 2s ease-in-out;
+        -webkit-transition-duration: 1s;
+        transition-duration: 2s;
       }
 
       &.prev {
-        transition: all 0.7s ease-in-out;
+        transition: all 2s ease-in-out;
+        -webkit-transition-duration: 1s;
+        transition-duration: 2s;
       }
 
       &.next {
-        transition: all 0.7s ease-in-out;
+        transition: all 2s ease-in-out;
+        -webkit-transition-duration: 1s;
+        transition-duration: 2s;
       }
 
-      transition: all 0.7s ease-in-out;
+      transition: all 2s ease-in-out;
+      -webkit-transition-duration: 1s;
+      transition-duration: 2s;
     }
   }
 
@@ -61,11 +69,6 @@
   }
   .item-4 {
     background: url('../../../assets/img/carousel-4.jpg') no-repeat center
-      center;
-    background-size: cover;
-  }
-  .item-5 {
-    background: url('../../../assets/img/carousel-5.jpg') no-repeat center
       center;
     background-size: cover;
   }
