@@ -1,0 +1,56 @@
+// Styles for ContactUsPageContainer.tsx
+.contact-page {
+  background-color: #d8ccc8;
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 10px 0;
+    color: #555;
+  }
+}
+
+// Styles for ContactForm.tsx
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 400px;
+
+  text-align: right;
+
+  // Styles for the Input component
+  .input-field {
+    margin-bottom: 1rem; // Form Label Styling
+    label {
+      color: #353339;
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+  }
+
+  .form-btn {
+    align-self: center;
+
+    background-color: #637c8b;
+    border: none;
+    border-radius: 0.8rem;
+    color: white;
+    padding: 0.8rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+  }
+}

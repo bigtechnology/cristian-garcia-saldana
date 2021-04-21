@@ -1,0 +1,29 @@
+// Styles for AboutPageContainer.tsx
+
+// Styles for RenderAboutPage.tsx
+.about-wrapper {
+  padding: 3rem;
+  background-color: #d8ccc8;
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    h2 {
+      font-size: 2.2rem;
+      line-height: 2.6rem;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+      margin-bottom: 1.6rem;
+      color: #444;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 2rem;
+      color: #222;
+    }
+  }
+}

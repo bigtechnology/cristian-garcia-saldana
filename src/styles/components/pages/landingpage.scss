@@ -1,0 +1,56 @@
+// Styles for the Landing Page Carousel
+.carousel-wrapper {
+  @mixin carousel-height($height: 30rem) {
+    .carousel-container {
+      height: $height;
+      .carousel-body {
+        height: $height;
+        .carousel-card {
+          height: $height;
+          & > div {
+            height: $height;
+          }
+        }
+      }
+    }
+  }
+
+  // Carousel Media Query Styling
+  @include bp(mid) {
+    @include carousel-height(40rem);
+  }
+  @include bp(tablet) {
+    @include carousel-height(50rem);
+  }
+  @include bp(large) {
+    @include carousel-height(60rem);
+  }
+
+  .item-1 {
+    background: url('../../../assets/img/carousel-1.jpg') no-repeat center
+      center;
+    background-size: cover;
+  }
+  .item-2 {
+    background: url('../../../assets/img/carousel-2.png') no-repeat center
+      center;
+    background-size: cover;
+  }
+  .item-3 {
+    background: url('../../../assets/img/carousel-3.jpg') no-repeat center
+      center;
+    background-size: cover;
+  }
+  .item-4 {
+    background: url('../../../assets/img/carousel-4.jpg') no-repeat center
+      center;
+    background-size: cover;
+  }
+  .item-5 {
+    background: url('../../../assets/img/carousel-5.jpg') no-repeat center
+      center;
+    background-size: cover;
+  }
+}
+
+// TODO - overwrite carousel-container
