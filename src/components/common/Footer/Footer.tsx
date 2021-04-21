@@ -21,11 +21,11 @@ const Footer = (): React.ReactElement => {
         <h3>Customer Service</h3>
         {/* <p>Phone Number</p> */}
         <p>
-          <a href="mailto:cgsaldanasbd@gmail.com">Contact Us</a>
+          <a href="mailto:cristiansbd.3k@gmail.com">Contact Us</a>
         </p>
         <a
           className="instagram-icon"
-          href="https://www.instagram.com//?hl=en"
+          href="https://www.instagram.com/cristiannoh15/"
           target="_blank"
           rel="noreferrer"
         >
@@ -33,7 +33,7 @@ const Footer = (): React.ReactElement => {
         </a>
       </div>
       <div className="copy-rights">
-        <p> Cristian Garcia | All rights reserved </p>
+        <p> Made by &#169; bigTechnology | All rights reserved </p>
       </div>
     </footer>
   );

@@ -46,7 +46,7 @@ const RenderServicesPage = (): React.ReactElement => {
           </div>
           <p>
             For other services and questions please contact me{' '}
-            <a href="mailto:cgsaldanasbd@gmail.com?subject=Contact Cristian Garcia Fitness">
+            <a href="mailto:mailto:cristiansbd.3k@gmail.com?subject=Contact Cristian Garcia Fitness">
               here
             </a>
           </p>
