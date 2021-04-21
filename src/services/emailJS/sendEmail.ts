@@ -4,10 +4,10 @@ const sendEmail = async <FormType = Record<string, unknown>>(
   data: FormType,
 ): Promise<EmailJSResponseStatus> => {
   const result = await emailjs.send(
-    'service_04oiimp',
-    'template_u6rmqna',
+    'service_tp8nzfc',
+    'template_f97dmwa',
     data,
-    'user_bZVp1GdKAL6LGg9VELNC2',
+    'user_QrVZm09QRGGDUC0mHNWix',
   );
   return result;
 };

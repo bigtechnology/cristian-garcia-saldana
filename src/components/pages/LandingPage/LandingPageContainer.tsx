@@ -7,7 +7,7 @@ const LandingPageContainer = (): React.ReactElement => {
   return (
     <div className="landing-page-container">
       <LandingPageCarousel />
-      <About headerOne={'About Business'} paragraphOne={''} />
+      <About />
       <ServicesPageContainer />
       <ContactForm />
     </div>

@@ -9,7 +9,7 @@ const Footer = (): React.ReactElement => {
   return (
     <footer className="footer-wrapper">
       <div className="contact-us">
-        <h3 onClick={goToDashboard}>Header Name</h3>
+        <h3 onClick={goToDashboard}>Cristian Garcia</h3>
         {/* <p>physical address</p>
         <p>Suite #</p> */}
         <p>Napa CA, 94559</p>
@@ -21,7 +21,7 @@ const Footer = (): React.ReactElement => {
         <h3>Customer Service</h3>
         {/* <p>Phone Number</p> */}
         <p>
-          <a href="mailto:">Contact Us</a>
+          <a href="mailto:cgsaldanasbd@gmail.com">Contact Us</a>
         </p>
         <a
           className="instagram-icon"
@@ -33,7 +33,7 @@ const Footer = (): React.ReactElement => {
         </a>
       </div>
       <div className="copy-rights">
-        <p> Business Name | All rights reserved </p>
+        <p> Cristian Garcia | All rights reserved </p>
       </div>
     </footer>
   );

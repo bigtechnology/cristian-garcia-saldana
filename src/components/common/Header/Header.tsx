@@ -10,7 +10,7 @@ const Header = (): React.ReactElement => {
   return (
     <header>
       <div className="header-content">
-        <h1 onClick={goHome}>Business Name</h1>
+        <h1 onClick={goHome}>Crisitan Garcia</h1>
         {/* <input type="checkbox" className="toggler" />
         <div className="hamburger">
           <div></div>
