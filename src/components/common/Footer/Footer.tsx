@@ -21,7 +21,9 @@ const Footer = (): React.ReactElement => {
         <h3>Customer Service</h3>
         {/* <p>Phone Number</p> */}
         <p>
-          <a href="mailto:cristiansbd.3k@gmail.com">Contact Us</a>
+          <a href="mailto:mailto:cristiansbd.3k@gmail.com?subject=Contact Cristian Garcia Fitness">
+            Contact Us
+          </a>
         </p>
         <a
           className="instagram-icon"
