@@ -35,7 +35,7 @@ const Footer = (): React.ReactElement => {
         </a>
       </div>
       <div className="copy-rights">
-        <p> Made by &#169; bigTechnology | All rights reserved </p>
+        <p> Made by &#169; Ben Griffin | All rights reserved </p>
       </div>
     </footer>
   );
