@@ -11,7 +11,7 @@ const Header = (): React.ReactElement => {
     <header>
       <div className="header-content">
         <h1 onClick={goHome}>Crisitan Garcia</h1>
-        {/* <input type="checkbox" className="toggler" />
+        <input type="checkbox" className="toggler" />
         <div className="hamburger">
           <div></div>
         </div>
@@ -22,16 +22,16 @@ const Header = (): React.ReactElement => {
                 <li>
                   <a href="/">Home</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="/contact">Contact</a>
-                </li>
+                </li> */}
                 <li>
                   <a href="/gallery">Gallery</a>
                 </li>
               </ul>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </header>
   );
